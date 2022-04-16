@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgba(126, 126, 126, 0.699);
+        }
+    </style>
+    <title>Imagens para escalas de telas de dispositivos</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+
+    <p>Redimencionando o tamanho da imagem para <em>diferentes telas</em> e <strong>dispositivos</strong></p>
+    <picture>
+        <source media="(max-width: 700px )" srcset="img/png-pequena.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="img/png-media.png" type="image/png">
+        <img src="img/png-grande.png" alt="imagem png-grande">
+        </picture>
+    
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reprodizir áudio em HTml5</p>
+    <audio src="midia/Cartoon (Sting) - Twin Musicom.mp3" controls > </audio> <!--controls / autoplay / loop-->
+    <audio>                                                                        <!--tem varios midias type-->
+        <source src="midia/Operator Error (Sting) - Gunnar Olsen.mp3" type="mp3" controls> <!--Midias types (mp3 / wav (wav é bem pesado guanabara n recomenda) /ogg)-->
+        <source src="midia/Cartoon (Sting) - Twin Musicom.mp3" type="mp3" controls>
+    </audio>
+</body>
+</html>

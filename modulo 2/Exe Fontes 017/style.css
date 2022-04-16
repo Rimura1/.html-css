@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body{
+
+    font: normal 200 1.2em "Work sans", monospace;
+}
+h1{
+    font: italic 200 3em "Work sans", serif;
+}

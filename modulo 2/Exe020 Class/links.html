@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(34, 34, 34, 0);
+
+        }
+
+        h1 {
+              font-family: 'Times New Roman', Times, serif;
+              font-size: 3em;
+              text-align: center;
+              font-weight: bold;
+          }
+        
+        div {   
+            width: 100px;
+            height: 100px;
+            padding-left: 10px;
+
+        } 
+
+        a:visited {
+            color: rgb(101, 0, 196);
+        }
+
+        .esp::after {
+                content: '[link]' ;
+                color: rgb(124, 124, 124);
+                font-weight: normal;
+                text-decoration: none;
+                font-size: 10px;
+        }
+
+        .esp::before {
+                content: '>';
+                color: rgb(170, 12, 12);
+                
+        }
+
+        a:active {
+            color: red; 
+        }
+
+        a {
+            text-decoration: none;
+            color: rgba(245, 31, 2, 0.637);
+            font-weight: bold;
+            
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        
+    </style>
+    <title>Links</title>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <main>
+        <DIV>
+                <ul type="Disc"> <!--Square / Circle / Disc -->
+                    <li><a href="#" target="_blank" rel="external" class="esp">Instagram</a></li>
+                    <li><a href="#" target="_blank" rel="external" class="esp">Youtube</a></li>
+                    <li><a href="#" target="_blank" rel="external" class="esp">GitHub</a></li>
+                </ul>
+        </DIV>
+    </main>
+    
+</body>
+</html>

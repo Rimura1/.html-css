@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test hover</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+
+        }
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: firebrick;
+        }
+        div:hover {
+            color: rgba(194, 13, 13, 0.671);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o use por cima</p>
+    <div>
+        COLOQUE O MOUSE AKI
+        <p>oculted text</p>
+    </div>
+</body>
+</html>
