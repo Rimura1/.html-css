@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+div.block {
+    font: normal ;
+    background-image: url('img/wallpaper002.jpg');
+    border: 3px solid black;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px 5px;
+}
+
+div#q1 {
+    background-position: left top;
+}
+div#q2 {
+    background-position: right bottom;
+}
+div#q3 {
+    background-position: center center;
+}
+
+/* Shorthand - Backgroud
+
+    color > img > posotion > repeat > size > attachment  */
