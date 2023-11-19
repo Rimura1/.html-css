@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body {
+    margin: 5;
     width: 98vw;
     height: 98vh;
     color: rgb(26, 26, 26);
@@ -21,6 +22,7 @@ main {
 
 }
 article {
+    border: 10px;
     margin: auto;
     max-width: 40em ;
     background-color: rgba(128, 128, 128, 0.884);
@@ -28,8 +30,5 @@ article {
     border-radius: 1em;
     font: normal 1em 'Franklin Gothic Medium', 'Arial Narrow' ;
     text-align: justify;
-    padding: 1em;
-    
-    
-    
+    padding: 0.5em;
 }
