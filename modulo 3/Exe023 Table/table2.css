@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+body {
+    background: rgba(128, 128, 128, 0.623) url(../Exe022/img/target001.png ) center center/100vw 100vh no-repeat;
+    width: 99vw;
+    height: 98vh;
+}
+table {
+    position: relative;
+    top: 20vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    width: 30vw;
+    height: 30vh;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    padding: 0.25em;
+    border: 2px solid black;
+
+}

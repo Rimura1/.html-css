@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+table {
+    width: 30vw;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: rgba(128, 128, 128, 0.308);                       
+
+}  
+
+tr {
+    height: 3em;
+    vertical-align: baseline;
+}
+
+td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+
+/* Alinhamento horizontal:
+
+	      text-align: 	left;		(padrão)
+			            center;
+			            right;
+
+Alinhamento vertical:	
+
+	vertical-align:	top;
+			        middle;	(padrão)
+			        bottom; */
